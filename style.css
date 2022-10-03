@@ -1,0 +1,139 @@
+html {
+  background: #6c367c59;
+}
+
+/* ortalama işlemi*/
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 25px;
+}
+
+/* heading */
+
+h1 {
+  color: rgb(40, 130, 148);
+  font-size: 70px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  font-family: serif;
+}
+
+h2 {
+  font-family: serif;
+  font-size: 45px;
+  color: rgb(40, 130, 148);
+  margin: 15px;
+}
+
+h3 {
+  font-family: serif;
+  font-size: 45px;
+  color: rgb(40, 130, 148);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* results and score */
+
+#lap-results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 80px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+  border: 6px solid rgb(27, 27, 31);
+  border-radius: 5px;
+}
+
+.scores {
+  display: flex;
+  flex-direction: row;
+}
+.scores div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  border: 6px solid rgb(27, 27, 31);
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+/* buttons */
+
+.selection-btn button {
+  width: 160px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #1c7ea1;
+  border: 5px solid #042a56;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 25px;
+}
+
+.selection-btn button:hover {
+  color: #1c7ea1;
+  background-color: black;
+  font-size: 30px;
+}
+
+#again {
+  width: 300px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #1c7ea1;
+  border-radius: 30px;
+  color: black;
+  margin-top: 20px;
+}
+
+#again:hover {
+  color: #1c7ea1;
+  background-color: black;
+  font-size: 30px;
+}
+
+/* result-title and score-title */
+
+#player-title {
+  font-size: 18px;
+  font-family: cursive;
+  font-weight: bold;
+  color: #1c7ea1;
+  padding-left: 10px;
+}
+
+#computer-title {
+  font-size: 18px;
+  font-family: cursive;
+  text-align: center;
+  font-weight: bold;
+  color: #1c7ea1;
+  padding-left: 30px;
+  padding-right: 5px;
+}
+
+#results-title {
+  font-size: 18px;
+  font-family: cursive;
+  text-align: center;
+  font-weight: bold;
+  color: #1c7ea1;
+}
